@@ -15,7 +15,7 @@ Il faut donc réaliser une série de 5 inscriptions sur ce formulaire, tout en p
 Ce captcha nous demandait de rentrer le nombre de lignes verticales et horizontales présentes sur l'image.
 Le nombre de lignes horizontales / verticales variait entre 1 et 10 pour chaque axe ce qui générait des captcha de cette forme :
 
-[Captcha](captcha.png)
+![Captcha](captcha.png)
 
 Le captcha ci dessu demandait donc à l'utilisateur de rentrer la valeur 75 puisqu'il y a 7 lignes verticales et 5 horizontales.
 
