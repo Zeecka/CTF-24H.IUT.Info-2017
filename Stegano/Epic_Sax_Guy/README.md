@@ -29,6 +29,9 @@ On peut commencer à entendre des mot/lettres, pour une text plus clair, on augm
 ![](Audacity7.png)
 ![](Audacity8.png)
 
+On obtien la piste:
+[Epic_Sax_Guy_solve](http://www.mediafire.com/file/if2qe2hcdivcd9e/Epic_Sax_Guy_solve.wav)
+
 Voilà ! A la lecture on peut entendre: 
 
 Bien joué, le flag est: the[espace]cake[espace]is[espace]a[espace]#lie#
