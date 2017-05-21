@@ -1,6 +1,6 @@
 # 5 inscriptions en 10 secondes
 
-5 incription en 10 secondes, avec un "captcha" ? C'est qu'indique la page "Aide" du challenge.
+5 incriptions en 10 secondes, avec un "captcha" ? C'est ce qu'indique la page "Aide" du challenge.
 
 Le site proposait en effet un formulaire d'inscription avec à remplir:
 * Un Nom
@@ -17,13 +17,13 @@ Le nombre de lignes horizontales / verticales variait entre 1 et 10 pour chaque 
 
 ![Captcha](captcha.png)
 
-Le captcha ci dessu demandait donc à l'utilisateur de rentrer la valeur 75 puisqu'il y a 7 lignes verticales et 5 horizontales.
+Le captcha ci-dessus demandait donc à l'utilisateur de rentrer la valeur 75 puisqu'il y a 7 lignes verticales et 5 horizontales.
 
 
-Pour réaliser cet exploit, j'ai donc développé un script python 3 qui va inscrir à notre place 5 personnes, et résoudre le captcha à chaque fois ! 
+Pour réaliser cet exploit, j'ai donc développé un script python 3 qui va inscrire à notre place 5 personnes, et résoudre le captcha à chaque fois ! 
 
 
-La résolution du captcha utilise le plugin "PIL" (comme indiqué dans l'aide du site il me semble). Celle ci va compter le nombre de pixels noir sur la première lignes puis la première colone.
+La résolution du captcha utilise le plugin "PIL" (comme indiqué dans l'aide du site il me semble). Cette résolution va compter le nombre de pixels noir sur la première ligne puis la première colone. Elle concatène les valeurs et les renvoie.
 
 Voici le script utilisé pour résoudre l'épreuve :
 
@@ -51,7 +51,7 @@ from PIL import Image, ImageDraw
 
 lienChall = "http://10.62.27.3/epreuve3/index.php" # Lien du formulaire de submit
 lienImg = "http://10.62.27.3/epreuve3/images/code.php" # lien de l'image , c'est ce chargement qui set le session[captcha] / le timer
-filename = r"C:\Users\Alex\Desktop\temp.png" # Place to save the captcha
+	filename = r"C:\Users\Alex\Desktop\temp.png" # Chemin de sauvegarde du captcha
 
 
 def parseImage(url):
@@ -62,13 +62,13 @@ def parseImage(url):
 	im = Image.open(url) # On ouvre l'image avec PIL
 	pixels = list(im.getdata()) # On charge les pixels (liste 1d)
 	width, height = im.size # On recup la taille de l'image
-	pixels = [pixels[i * width:(i + 1) * width] for i in range(height)] # on converti en liste 2d de pixels
+	pixels = [pixels[i * width:(i + 1) * width] for i in range(height)] # on convertit en liste 2d de pixels
 	
-	nbVerticaux = 0 # On initialise les nb de lignes
+	nbVerticaux = 0 # On initialise les nb de lignes/colonnes
 	nbHorizontaux = 0
 	
-	for elt in pixels[0]: # on parcour la premiere ligne
-		if elt == 0: # pour chaque pixel noir sur la premiere ligne, si la valeure est noire
+	for elt in pixels[0]: # On parcourt la premiere ligne
+		if elt == 0: # Pour chaques pixels noirs sur la première ligne, si la valeure est noire
 			nbVerticaux += 1 # alors on incrémente le nombre de lignes verticales
 	
 	for elt in pixels: # pour chaques lignes 
@@ -78,7 +78,7 @@ def parseImage(url):
 	return str(nbVerticaux)+str(nbHorizontaux)
 
 
-# NOM ET PRENOMS BIDON POUR L'INSCRIPTION
+# NOM ET PRENOMS POUR L'INSCRIPTION
 nomstab = ["Jean","Charles","George","Louis","Simon","Constant"]
 prenomtab = ["naej","selrahc","egroeg","siuol","nomis","tnatsnoc"]
 
@@ -95,13 +95,13 @@ for i in range(5): # Boucle de 5 comptes
 		for chunk in response.iter_content(1024):
 			f.write(chunk)
 	
-	# On set les valeurs du formulaires
+	# On set les valeurs du formulaire
 	
-	captcha = parseImage(filename) # parsing du captcha, voir parseImage()
+	captcha = parseImage(filename) # résolution du captcha, voir parseImage()
 	nom = nomstab[i]
 	prenom = prenomtab[i]
 	mail = prenom+"."+nom+"@gmail.com"
-	formulaire = "1" # parametre présent avec la val 1 sur le site
+	formulaire = "1" # param présent avec la val 1 sur le site
 
 	mondico = { # On construit le dictionnaire de param post
 	'captcha':int(captcha),
