@@ -5,7 +5,7 @@ Le challenge proposait un fichier txt: [CaptureHTTP.txt](CaptureHTTP.txt)
 Après ouverture sous notepad++, le fichier montrait l'enregistrement d'un trafic web.
 (Le fichier comprenait des retours à la ligne non pris en compte sous blocnote)
 
-La méthode utilisée lors de l'évènement consistait à chercher une trame "POST" généralement utilisé pour cacher un mot de passe lors de la soumission d'un formulaire.
+La méthode utilisée lors de l'évènement consistait à chercher une trame "POST" (ctrl+f "POST") généralement utilisé pour cacher un mot de passe lors de la soumission d'un formulaire.
 
 On pouvait donc clairement identifier la trame :
 
