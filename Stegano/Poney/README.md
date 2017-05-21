@@ -1,5 +1,9 @@
 # Poney
 
+L'épreuve proposait l'image d'un magnifique poney :
+
+![poney](poney.jpg)
+
 Pour commencer l'épreuve on fait un "file" de l'image pour vérifier de quel type il s'agit.
 
 ![Poney1](Poney1.png)
