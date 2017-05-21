@@ -7,27 +7,27 @@ Après une première écoute, on entend d'une part que la piste est jouée sur l
 On ouvre donc le fichier sous Audacity:
 
 ![](Audacity1.png)
-![](Audacity2.png)
-![](Audacity3.png)
 
 On peut confirmer visuellement ce qu'on entendait à la première écoute, une musique sur la piste gauche et un son sur la piste droite.
 
 On commence donc par isoler la piste Droite:
 
-[IMG]
+![](Audacity2.png)
+![](Audacity3.png)
 
 Ensuite, on accélère la piste:
 
-[IMG]
+![](Audacity4.png)
+![](Audacity5.png)
 
 On inverse son sens:
 
-[IMG]
+![](Audacity6.png)
 
 On peut commencer à entendre des mot/lettres, pour une text plus clair, on augmente la hauteure de la piste:
 
-[IMG]
-
+![](Audacity7.png)
+![](Audacity8.png)
 
 Voilà ! A la lecture on peut entendre: 
 
