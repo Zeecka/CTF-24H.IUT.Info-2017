@@ -11,3 +11,24 @@ On ouvre donc le fichier sous Audacity:
 On peut confirmer visuellement ce qu'on entendait à la première écoute, une musique sur la piste gauche et un son sur la piste droite.
 
 On commence donc par isoler la piste Droite:
+
+[IMG]
+
+Ensuite, on accélère la piste:
+
+[IMG]
+
+On inverse son sens:
+
+[IMG]
+
+On peut commencer à entendre des mot/lettres, pour une text plus clair, on augmente la hauteure de la piste:
+
+[IMG]
+
+
+Voilà ! A la lecture on peut entendre: 
+
+Bien joué, le flag est: the[espace]cake[espace]is[espace]a[espace]#lie#
+
+==> the cake is a #lie#
