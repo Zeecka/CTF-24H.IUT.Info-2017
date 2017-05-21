@@ -1,0 +1,793 @@
+12:25:41.273681 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [S], seq 3389266476, win 29200, options [mss 1460,sackOK,TS val 2317560 ecr 0,nop,wscale 10], length 0
+E..<F.@.@.1......(DB...P...,......r..T.........
+.#\........
+
+12:25:41.322219 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [S.], seq 246191010, ack 3389266477, win 14480, options [mss 1452,sackOK,TS val 1818997966 ecr 2317560,nop,wscale 7], length 0
+E..<..@./....(DB.....P.........-..8.]Y.........
+lk...#\.....
+12:25:41.322242 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 1, win 29, options [nop,nop,TS val 2317572 ecr 1818997966], length 0
+E..4F.@.@.1......(DB...P...-.........L.....
+.#].lk..
+12:25:41.322314 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [P.], seq 1:533, ack 1, win 29, options [nop,nop,TS val 2317572 ecr 1818997966], length 532
+E..HF.@.@./......(DB...P...-.........`.....
+.#].lk..GET / HTTP/1.1
+Host: litle.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/applications/
+Cookie: PHPSESSID=f09f0b0e2a14f37339c9fb57dfdbe2fe; __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g; servicewb[91914]=1395919518
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+12:25:41.380094 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], ack 533, win 122, options [nop,nop,TS val 1818997980 ecr 2317572], length 0
+E..4'x@./.b&.(DB.....P.........A...z.......
+lk...#].
+12:25:41.420377 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 1:1441, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'y@./.\..(DB.....P.........A...z.'.....
+lk...#].HTTP/1.1 200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 27 Mar 2014 11:25:00 GMT
+Server: lighttpd/1.4.28
+
+8308
+<!DOCTYPE html>
+<html lang="fr-FR"><head>
+        <meta charset="utf-8"/>
+            <meta name="robots" content="index, follow, archive"/>
+    <meta name="twitter:card" content="app"/><meta name="twitter:app:id:iphone" content="588950703"/><meta name="twitter:app:id:ipad" content="588950703"/>    <title>Accueil - LITLE: Jeux et Applications diverses</title>
+        <link rel="shortcut icon" href="http://u.jimdo.com/www20/o/sa131795384c1a365/img/favicon.png?t=1341778473"/>
+    
+    <link rel="canonical" href="http://litle.jimdo.com/"/>
+
+                <meta name="keywords" content="Damien, BELHUMEUR, LITLE, litle, PSP, Applications, pour, PSP, Portail, Shell, Homebrew, Dump, Horloge, Digitale, LITLEPortail, LITLEShell, LITLEDump, LITLEApps, Dj Psyko, Dj, Psyko"/>
+                    <meta name="description" content="Jeux et applications diverses, notamment  pour PSP que j...ai cr....s. Vous pourrez d..couvrir et profiter de mes applications qui sont enti..rement d..taill..es avec des diaporamas, descriptions et miniatures. Bonne visite et .. bient..t sur http://litle.jimdo.com"/>
+            <meta property="st:sect
+12:25:41.420392 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 1441, win 32, options [nop,nop,TS val 2317596 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A...C... .L.....
+.#].lk..
+12:25:41.420635 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 1441:2881, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'z@./.\..(DB.....P.....C...A...z~B.....
+lk...#].ion" content="Jeux et applications diverses, notamment  pour PSP que j...ai cr....s. Vous pourrez d..couvrir et profiter de mes applications qui sont enti..rement d..taill..es avec des diaporamas, descriptions et miniatures. Bonne visite et .. bient..t sur http://litle.jimdo.com"/>
+        <!-- BEGIN STYLES PARTIAL -->    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/main.css?t=1394028140" rel="stylesheet" type="text/css"/>
+    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/layout.css?t=1391689863" rel="stylesheet" type="text/css"/>
+    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/font.css?t=1394028140" rel="stylesheet" type="text/css"/>
+<!-- END STYLES PARTIAL -->    <link href="//jimdo.sslcs.cdngc.net/app/cdn/min/group/web.css?1395913323" rel="stylesheet" type="text/css" media="all"/>
+    <link href="//jimdo.sslcs.cdngc.net/app/cdn/min/group/webonly.css?1395913323" rel="stylesheet" type="text/css" media="all"/>
+    <link href="//jimdo.sslcs.cdngc.net/app/cdn/min/file/css/print/print.css?1395913323" rel="stylesheet" type="text/css" media="print"/>
+        <script>
+            /* <![CDATA[ */
+            // Framebuster
+            if (top != self) {
+                location.href = 'http://fr.jimdo.com/info/framebuster/';
+            }
+            /* ]]> */
+        </script>
+    
+    <script type="te
+12:25:41.420639 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 2881, win 35, options [nop,nop,TS val 2317596 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A.......#.L.....
+.#].lk..
+12:25:41.420894 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 2881:4321, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'{@./.\..(DB.....P.........A...z.o.....
+lk...#].xt/javascript">
+    /* <![CDATA[ */
+        var jimdoData = {"isTestserver":false,"isLcJimdoCom":false,"isJimdoHelpCenter":false,"responseCode":200,"cstok":"e7bef40c2e678203745dac943bbc587199d5afad","cacheJsKey":"1395913323","cacheCssKey":"1395913323","cdnUrl":"\/\/jimdo.sslcs.cdngc.net\/","minUrl":"\/\/jimdo.sslcs.cdngc.net\/app\/cdn\/min\/file\/","authUrl":"https:\/\/a.jimdo.com\/","webPath":"http:\/\/litle.jimdo.com\/","appUrl":"http:\/\/a.jimdo.com\/","webserver":"http:\/\/web20.jimdo.com\/","cmsLanguage":"fr_FR","isFreePackage":true,"mobile":false,"maintenance":false,"newModuleSystem":false,"websiteId":"sa131795384c1a365","pageId":522238451,"packageId":1,"exfont":{"host":"jimdodev01.cpi.ad.jp"},"shop":{"deliveryTimeTexts":{"1":"1 \u00e0 3 jours de d\u00e9lai de livraison","2":"3 \u00e0 5 jours de d\u00e9lai de livraison","3":"d\u00e9lai de livraison de plus de 5 jours"},"maintenance":false},"tr":{"gmap":{"searchNotFound":"L'adresse entr\u00e9e n'a pu \u00eatre trouv\u00e9e. ","routeNotFound":"L'itin\u00e9raire n'a pas pu \u00eatre calcul\u00e9. Raisons possibles: l'adresse de d\u00e9part n'est pas assez pr\u00e9cise ou trop \u00e9loign\u00e9e de l'adresse d'arriv\u00e9e."},"shop":{"checkoutSubmit":{"next":"\u00c9tape suivante","wait":"Attendez s'il vous pla\u00eet"},"paypalError":"Une erreur est intervenue. Veuillez r\u00e9essayer !","cartBar":"Panier d'achat","maintenance":"Cette e-boutique est indisponible pou
+12:25:41.420896 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 4321, win 37, options [nop,nop,TS val 2317596 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A.......%.L.....
+.#].lk..
+12:25:41.421543 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 4321:5761, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'|@./.\..(DB.....P.........A...z]......
+lk...#].r le moment. Veuillez r\u00e9essayer plus tard."},"common":{"timeout":"Un probl\u00e8me est survenu. L'action demand\u00e9e a \u00e9t\u00e9 annul\u00e9e. Veuillez r\u00e9essayer dans quelques minutes."},"form":{"badRequest":"Une erreur est survenue. Les donn\u00e9es n'ont pas pu \u00eatre transmises. Veuillez essayer \u00e0 nouveau. "}}};
+    /* ]]> */
+</script>
+    <link href="http://web20.jimdo.com/app/logstate2-css.php?site=sa131795384c1a365&amp;t=1395919500" rel="stylesheet" type="text/css"/>
+
+        <script src="//jimdo.sslcs.cdngc.net/app/cdn/min/group/web.js?1395913323" type="text/javascript"></script>
+
+<style type="text/css">
+/*<![CDATA[*/
+#page-1027754551 div#emotion,
+#page-1027754551 div#nav_top,
+#page-1027754551 div#sidebar,
+#page-1027754551 div#footer {display:none;}
+/* Supprimer la bordure */
+#page-981518050 div#wrapper {border:none;}
+/*]]>*/
+</style>
+
+<meta name="google-site-verification" content="oCvZNUjia5MdVEFWNG1J95HWGgans1xgx2yJ0mcGOwE"/>
+
+<script type="text/javascript" src="http://www.jimdo.com/l/usersnippets/snowfall.min.js">
+</script>
+</head>
+
+<body class="body cc-page cc-page-index cc-indexpage cc-pagemode-default cc-content-parent" id="page-522238451">
+
+<div id="cc-inner" class="cc-content-parent"><div id="gj-header-wrapper">
+    <div id="gj-topimage">
+        
+<div id="emotion-header" data-action="emoHeader" style="background: #EEEEEE;width: 958px; height: 270px;">
+            <a href="http:
+12:25:41.421547 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 5761, win 40, options [nop,nop,TS val 2317597 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A...#...(.L.....
+.#].lk..
+12:25:41.423757 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 5761:7201, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'}@./.\..(DB.....P.....#...A...z.......
+lk...#].//litle.jimdo.com/" style="border: 0; text-decoration: none; cursor: pointer;">
+    
+    <img src="http://u.jimdo.com/www20/o/sa131795384c1a365/emotion/crop/header.jpg?t=1391690200" id="emotion-header-img" alt=""/>
+
+
+
+    
+
+
+    <strong id="emotion-header-title" style="             left: 23%;             top: 29%;             font: italic bold 78px/120% Verdana, Geneva, Arial, Helvetica, sans-serif;             color: #3737DF;                             display: none;                         "></strong>
+            </a>
+        </div>
+
+
+    </div>
+    <div id="gj-navi">
+        <div data-container="navigation"><div><ul id="mainNav1" class="mainNav1"><li id="cc-nav-view-522238451"><a href="/" class="current level_1"><span>Accueil</span></a></li><li id="cc-nav-view-607058151"><a href="/diaporamas/" class="level_1"><span>Diaporamas</span></a></li><li id="cc-nav-view-607654151"><a href="/applications/" class="level_1"><span>Applications</span></a></li><li id="cc-nav-view-1026777851"><a href="/dj-psyko/" class="level_1"><span>Dj Psyko</span></a></li><li id="cc-nav-view-536070351"><a href="/aide/" class="level_1"><span>Aide</span></a></li><li id="cc-nav-view-592478151"><a href="/stats/" class="level_1"><span>Stats</span></a></li></ul></div></div>
+    </div>
+</div>
+<div id="gj-wrapper" class="cc-content-parent">
+    <div id="gj-contents-wrapper" class="cc-content-parent">
+        
+        <div id="gj-side">
+        <div id
+12:25:41.423764 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 7201, win 43, options [nop,nop,TS val 2317597 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A.......+.L.....
+.#].lk..
+12:25:41.425979 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 7201:8641, ack 533, win 122, options [nop,nop,TS val 1818997990 ecr 2317572], length 1440
+E...'~@./.\..(DB.....P.........A...z.......
+lk...#].="gj-sidenav">
+            <div data-container="navigation"><div><ul id="mainNav2" class="mainNav2"><li id="cc-nav-view-711200251"><a href="/accueil/actualit..s-pc-astuces/" class="level_2"><span>Actualit..s PC Astuces</span></a></li><li id="cc-nav-view-1040745451"><a href="/accueil/actualit..s-s..curit..-informatique/" class="level_2"><span>Actualit..s S..curit.. Informatique</span></a></li></ul></div></div>
+        </div>
+            <div class="gutter"><div data-container="sidebar"><div id="cc-matrix-699118251"><div id="cc-m-5615680351" class="n j-htmlCode"><script type="text/javascript" src="http://ads.clicmanager.fr/exe.php?c=32399&amp;s=47905&amp;t=8&amp;q=">
+</script></div><div id="cc-m-5752114851" class="n j-hr">    <div class="hr"></div>
+</div><div id="cc-m-5126749851" class="n j-htmlCode"><div id="cse" style="width: 100%;">
+    Loading
+</div>
+<script src="//www.google.com/jsapi" type="text/javascript">
+</script><script type="text/javascript">
+//<![CDATA[
+ 
+  google.load('search', '1', {language : 'fr'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('012179681068752097811:WMX89481203');
+    customSearchControl.setResultSetSize(google.search.Search.LARGE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.setAutoComplete(true);
+    customSearchControl.draw('cse', options);
+  }, true);
+//]]>
+</script></div><div id="cc-m-56295
+12:25:41.425985 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 8641, win 45, options [nop,nop,TS val 2317598 ecr 1818997990], length 0
+E..4F.@.@.1......(DB...P...A...c...-.L.....
+.#].lk..
+12:25:41.454054 IP KaliLinux.home.60734 > 151.249.88.80.http: Flags [S], seq 3687756407, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<.R@.@..d......XP.>.P...w......r..3.........
+.#]%.......
+
+12:25:41.454118 IP KaliLinux.home.60735 > 151.249.88.80.http: Flags [S], seq 3273452978, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<..@.@.........XP.?.P..........r..3.........
+.#]%.......
+
+12:25:41.454287 IP KaliLinux.home.60736 > 151.249.88.80.http: Flags [S], seq 1109043171, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<..@.@.........XP.@.PB.........r..3.........
+.#]%.......
+
+12:25:41.454434 IP KaliLinux.home.42958 > 151.249.95.218.http: Flags [S], seq 882772752, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<V5@.@.*......._....P4.........r............
+.#]%.......
+
+12:25:41.454546 IP KaliLinux.home.42959 > 151.249.95.218.http: Flags [S], seq 3216208743, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<.B@.@.R......._....P..sg......r............
+.#]%.......
+
+12:25:41.454687 IP KaliLinux.home.42960 > 151.249.95.218.http: Flags [S], seq 329554445, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<.(@.@........._....P...
+......r............
+.#]%.......
+
+12:25:41.454812 IP KaliLinux.home.60105 > web20.jimdo-server.com.http: Flags [S], seq 108262173, win 29200, options [mss 1460,sackOK,TS val 2317605 ecr 0,nop,wscale 10], length 0
+E..<.8@.@..].....(DB...P.s........r..T.........
+.#]%.......
+
+12:25:41.466382 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 8641:10081, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\..(DB.....P.....c...A...z.......
+lk...#].01451" class="n j-facebook"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Flitle.jimdo.com%2F&amp;layout=button_count&amp;colorscheme=light&amp;show_faces=false&amp;width=184&amp;height=30&amp;action=like" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:184px; height:30px; background-color:transparent !important;" ALLOWTRANSPARENCY="true"></iframe><script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_facebook", []);
+/* ]]> */
+</script></div><div id="cc-m-5651412851" class="n j-googleplus"><script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {parsetags: 'explicit'}
+</script>
+
+<div class="googleplus-container" style="height: 24px;">
+        <div class="g-plusone" data-href="http://litle.jimdo.com/"></div>
+
+    </div><script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_googleplus", {"badgeUrl":"https:\/\/plus.google.com\/108428597438880471237","minHeight":1,"maxHeight":2000,"tab":"plusonebutton","type":"1"});
+/* ]]> */
+</script></div><div id="cc-m-3864766951" class="n j-hr">    <div class="hr"></div>
+</div><div id="cc-m-4149371151" class="n j-flash">
+<div id="cc-m-flash-4149371151" style="text-align: center;">
+    Horloge LITLE: Horloge flash 
+</div>
+ 
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_flash", {"variant":"default","selector":"#cc-m-flash-4149371151","flashExists":true,"options":{"swf":"http:\/\/u.jimdo.com\/www20
+12:25:41.466392 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 10081, win 45, options [nop,nop,TS val 2317608 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#](lk..
+12:25:41.468613 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 10081:11521, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\~.(DB.....P.........A...z.......
+lk...#].\/o\/sa131795384c1a365\/flash\/m5040251647fc5677\/1279717953\/flash.swf","params":{"version":"6.0.0","bgcolor":"#fff"},"attr":{"width":"160","height":"60"}}});
+/* ]]> */
+</script></div><div id="cc-m-3455411451" class="n j-imageSubtitle"><div class="clearover">
+    <div id="cc-m-imagesubtitle-3455411451" class="cc-m-image-resizewrapper cc-imagewrapper cc-m-image-align-3" style="width: 109px;">
+<a href="http://www.copyrightfrance.com/phtml/copyright.php" target="_blank"><img id="cc-m-imagesubtitle-image-3455411451" src="http://u.jimdo.com/www20/o/sa131795384c1a365/img/i6f67b1326d37a422/1391963599/std/image.png" alt="Site et Applications sous Copyright.." title="Site et Applications sous Copyright.." class="" style="width: 109px; height: 42px;"/></a>    </div>
+</div>
+
+<div class="clearover">
+    </div>
+
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_imageSubtitle", {"data":{"imageExists":true,"hyperlink":"http:\/\/www.copyrightfrance.com\/phtml\/copyright.php","hyperlink_target":"_blank","pinterest":"0","id":3455411451}});
+/* ]]> */
+</script></div><div id="cc-m-5689173551" class="n j-htmlCode"><center>
+    <script type="text/javascript" id="servicewb_91914">
+//<![CDATA[
+    (function() {
+    var cv = document.createElement("script"); cv.type = "text/javascript"; cv.async = true;
+    cv.src = "http://www.compteur-visite.com/service.php?v=1.1&id=91914&k=2e8d3a7247384c2403692f07536b5025&c="+document.cookie;
+    
+12:25:41.468626 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 11521, win 45, options [nop,nop,TS val 2317608 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#](lk..
+12:25:41.470873 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 11521:12961, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\}.(DB.....P.........A...z.k.....
+lk...#].var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(cv, s);
+    })();
+    //]]>
+    </script><noscript><a href="http://www.compteur-visite.com/">Services gratuits pour webmasters</a></noscript>
+</center></div><div id="cc-m-2978313451" class="n j-htmlCode"><a href="http://www.xiti.com/xiti.asp?s=435435" title="WebAnalytics" target="_top"><script type="text/javascript">
+//<![CDATA[
+<!--
+Xt_param = 's=435435&p=';
+try {Xt_r = top.document.referrer;}
+catch(e) {Xt_r = document.referrer; }
+Xt_h = new Date();
+Xt_i = '<img width="80" height="15" border="0" alt="" ';
+Xt_i += 'src="http://logv10.xiti.com/bcg.xiti?'+Xt_param;
+Xt_i += '&hl='+Xt_h.getHours()+'x'+Xt_h.getMinutes()+'x'+Xt_h.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xt_s=screen;Xt_i+='&r='+Xt_s.width+'x'+Xt_s.height+'x'+Xt_s.pixelDepth+'x'+Xt_s.colorDepth;}
+document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'" title="Internet Audience">');
+//-->
+//]]>
+</script> <noscript>Mesure d'audience ROI statistique webanalytics par <img width="80" height="15" src="http://logv10.xiti.com/bcg.xiti?s=435435&amp;p=" alt="WebAnalytics"/></noscript></a></div></div></div></div>
+        </div>
+        <div id="gj-contents" class="cc-content-parent">
+            <div id="content_area" data-container="content"><div id="content_start"></div>
+        
+        <div id="cc-matrix-702743451"><div id="cc-m-3175730051" class="n j-hea
+12:25:41.470886 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 12961, win 45, options [nop,nop,TS val 2317609 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A...C...-.L.....
+.#])lk..
+12:25:41.473332 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 12961:14401, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\|.(DB.....P.....C...A...z.......
+lk...#].der"><h1 id="cc-m-header-3175730051">LITLE: Jeux et Applications diverses ..</h1></div><div id="cc-m-3397726351" class="n j-header"><h2 id="cc-m-header-3397726351">Applications cr....es et cod..es par Damien.B</h2></div><div id="cc-m-5767628651" class="n j-textWithImage"><div class="clearover">
+    <div id="cc-m-textwithimage-5767628651" class="cc-imagewrapper cc-m-image-align-1" style="width:210px;">
+        <div class="cc-m-image-resizewrapper">
+<a href="http://litle.jimdo.com/">
+    <img src="http://u.jimdo.com/www20/o/sa131795384c1a365/img/i11b91b1bd371e095/1391610105/std/image.png" class="" id="cc-m-textwithimage-image-5767628651" alt="Jeux et Applications diverses" title="Jeux et Applications diverses" width="210" height="53"/>
+</a>
+        </div>
+
+    </div>
+<p style="text-align: center;">
+    <em><strong>BIENVENUE</strong></em>
+</p>
+
+<p style="text-align: center;">
+    <span style="text-decoration: underline;">Ce site contient des jeux et des applications que j...ai cr....s.</span>
+</p>
+
+<p style="text-align: center;">
+    ..
+</p>
+
+<p style="text-align: center;">
+    Vous trouverez des jeux et des applications pour PSP.
+</p>
+
+<p style="text-align: center;">
+    Vous trouverez ..galement des Applications pour PC.
+</p>
+
+<p style="text-align: center;">
+    Toutes les applications sont disponibles en t..l..chargement.
+</p>
+
+<p style="text-align: right;">
+    <em><strong><a href="http://litle.jimdo.com/">LITLE</a>
+12:25:41.473345 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 14401, win 45, options [nop,nop,TS val 2317609 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#])lk..
+12:25:41.475554 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 14401:15841, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\{.(DB.....P.........A...zo......
+lk...#].</strong></em>
+</p></div>
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_textWithImage", {"data":{"imageExists":true,"hyperlink":"\/app\/sa131795384c1a365\/p675ffb5f62f21fb6\/","hyperlink_target":"","pinterest":"0","id":5767628651}});
+/* ]]> */
+</script></div><div id="cc-m-5752114551" class="n j-header"><h3 id="cc-m-header-5752114551">Partagez cette page sur:</h3></div><div id="cc-m-5767633851" class="n j-hgrid"><div class="cc-m-hgrid-column" style="width: 17.73%;">
+    <div id="cc-matrix-1283328251"></div></div>
+<div class="cc-m-hgrid-separator"><div></div></div>
+<div class="cc-m-hgrid-column last" style="width: 80.27%;">
+    <div id="cc-matrix-1283328351"><div id="cc-m-5752114251" class="n j-sharebuttons"><div class="cc-sharebuttons-element cc-sharebuttons-size-32">
+    <div class="cc-sharebuttons-element-inner cc-sharebuttons-style-1">
+        <a class="cc-sharebuttons-facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flitle.jimdo.com%2F&amp;t=Accueil" title="Facebook" target="_blank"></a>
+            <a class="cc-sharebuttons-twitter" href="http://twitter.com/share?text=Accueil&amp;url=http%3A%2F%2Flitle.jimdo.com%2F" title="Twitter" target="_blank"></a>
+            <a class="cc-sharebuttons-googleplus" href="https://plus.google.com/share?url=http%3A%2F%2Flitle.jimdo.com%2F" title="Google+" target="_blank"></a>
+            <a class="cc-sharebuttons-mail" href="mailto:?subject=Accueil&amp
+12:25:41.475567 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 15841, win 45, options [nop,nop,TS val 2317610 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#]*lk..
+12:25:41.477773 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [P.], seq 15841:17281, ack 533, win 122, options [nop,nop,TS val 1818998003 ecr 2317596], length 1440
+E...'.@./.\z.(DB.....P.........A...z.......
+lk...#].;body=http%3A%2F%2Flitle.jimdo.com%2F" title="e-mail" target="_blank"></a>
+            <a class="cc-sharebuttons-evernote" href="http://www.evernote.com/clip.action?url=http%3A%2F%2Flitle.jimdo.com%2F&amp;title=Accueil" title="Evernote" target="_blank"></a>
+            <a class="cc-sharebuttons-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flitle.jimdo.com%2F&amp;title=Accueil" title="LinkedIn" target="_blank"></a>
+            <a class="cc-sharebuttons-stumbleupon" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Flitle.jimdo.com%2F&amp;title=Accueil" title="StumbleUpon" target="_blank"></a>
+            <a class="cc-sharebuttons-tumblr" href="http://www.tumblr.com/share?v=3&amp;u=http%3A%2F%2Flitle.jimdo.com%2F&amp;t=Accueil" title="Tumblr" target="_blank"></a>
+            <a class="cc-sharebuttons-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flitle.jimdo.com%2F&amp;title=Accueil" title="Reddit" target="_blank"></a>
+            <a class="cc-sharebuttons-digg" href="http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Flitle.jimdo.com%2F&amp;title=Accueil" title="Digg" target="_blank"></a>
+            <a class="cc-sharebuttons-orkut" href="http://promote.orkut.com/preview?nt=orkut.com&amp;tt=Accueil&amp;du=http%3A%2F%2Flitle.jimdo.com%2F" title="Orkut" target="_blank"></a>
+        </div>
+</div>
+
+<div style="clear:both;"></div><script>/* <![CDATA[ */
+    jimdo
+12:25:41.477786 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 17281, win 45, options [nop,nop,TS val 2317611 ecr 1818998003], length 0
+E..4F.@.@.1......(DB...P...A...#...-.L.....
+.#]+lk..
+12:25:41.479954 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [P.], seq 17281:18721, ack 533, win 122, options [nop,nop,TS val 1818998004 ecr 2317596], length 1440
+E...'.@./.\y.(DB.....P.....#...A...z%^.....
+lk...#].Gen002.regModule("module_sharebuttons", {"initializationData":{"model":{"services":{"1":true,"2":true,"16384":true,"16":true,"65536":true,"32768":true,"262144":false,"256":true,"128":true,"512":true,"8":true,"64":true,"32":false,"2048":false,"8192":false,"4096":false,"131072":false},"buttonSize":2,"buttonStyle":1},"definedServices":{"1":{"name":"Facebook","shareurl":"http:\/\/www.facebook.com\/sharer.php?u={pageUrl}&t={pageTitle}","iconprefix":"facebook","link":"http:\/\/www.facebook.com\/sharer.php?u=http%3A%2F%2Flitle.jimdo.com%2F&t=Accueil","serviceId":1},"2":{"name":"Twitter","shareurl":"http:\/\/twitter.com\/share?text={pageTitle}&url={pageUrl}","iconprefix":"twitter","needsurlencode":1,"link":"http:\/\/twitter.com\/share?text=Accueil&url=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":2},"16384":{"name":"Google+","shareurl":"https:\/\/plus.google.com\/share?url={pageUrl}","iconprefix":"googleplus","needsurlencode":1,"link":"https:\/\/plus.google.com\/share?url=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":16384},"16":{"name":"e-mail","shareurl":"mailto:?subject={pageTitle}&body={pageUrl}","iconprefix":"mail","link":"mailto:?subject=Accueil&body=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":16},"65536":{"name":"Evernote","shareurl":"http:\/\/www.evernote.com\/clip.action?url={pageUrl}&title={pageTitle}","iconprefix":"evernote","link":"http:\/\/www.evernote.com\/clip.action?url=http%3A%2F%2Flitle.jimdo.com%2F&title=Ac
+12:25:41.479968 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 18721, win 45, options [nop,nop,TS val 2317611 ecr 1818998004], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#]+lk..
+12:25:41.482683 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 18721:20161, ack 533, win 122, options [nop,nop,TS val 1818998005 ecr 2317598], length 1440
+E...'.@./.\x.(DB.....P.........A...z.s.....
+lk...#].cueil","serviceId":65536},"32768":{"name":"LinkedIn","shareurl":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url={pageUrl}&title={pageTitle}","iconprefix":"linkedin","link":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url=http%3A%2F%2Flitle.jimdo.com%2F&title=Accueil","serviceId":32768},"262144":{"name":"Xing","shareurl":"https:\/\/www.xing.com\/social_plugins\/share\/new?url={pageUrl}","iconprefix":"xing","link":"https:\/\/www.xing.com\/social_plugins\/share\/new?url=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":262144},"256":{"name":"StumbleUpon","shareurl":"http:\/\/www.stumbleupon.com\/submit?url={pageUrl}&title={pageTitle}","iconprefix":"stumbleupon","link":"http:\/\/www.stumbleupon.com\/submit?url=http%3A%2F%2Flitle.jimdo.com%2F&title=Accueil","serviceId":256},"128":{"name":"Tumblr","shareurl":"http:\/\/www.tumblr.com\/share?v=3&u={pageUrl}&t={pageTitle}","iconprefix":"tumblr","link":"http:\/\/www.tumblr.com\/share?v=3&u=http%3A%2F%2Flitle.jimdo.com%2F&t=Accueil","serviceId":128},"512":{"name":"Reddit","shareurl":"http:\/\/reddit.com\/submit?url={pageUrl}&title={pageTitle}","iconprefix":"reddit","link":"http:\/\/reddit.com\/submit?url=http%3A%2F%2Flitle.jimdo.com%2F&title=Accueil","serviceId":512},"8":{"name":"Digg","shareurl":"http:\/\/digg.com\/submit?partner=addthis&url={pageUrl}&title={pageTitle}","iconprefix":"digg","link":"http:\/\/digg.com\/submit?partner=addthis&url=http%3A%2F%2Flitle.jimdo.c
+12:25:41.482696 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 20161, win 45, options [nop,nop,TS val 2317612 ecr 1818998005], length 0
+E..4F.@.@.1......(DB...P...A...c...-.L.....
+.#],lk..
+12:25:41.484908 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 20161:21601, ack 533, win 122, options [nop,nop,TS val 1818998006 ecr 2317598], length 1440
+E...'.@./.\w.(DB.....P.....c...A...z.......
+lk...#].om%2F&title=Accueil","serviceId":8},"64":{"name":"Orkut","shareurl":"http:\/\/promote.orkut.com\/preview?nt=orkut.com&tt={pageTitle}&du={pageUrl}","iconprefix":"orkut","link":"http:\/\/promote.orkut.com\/preview?nt=orkut.com&tt=Accueil&du=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":64},"32":{"name":"VKontakte","shareurl":"http:\/\/vkontakte.ru\/share.php?url={pageUrl}","iconprefix":"vkontakte","link":"http:\/\/vkontakte.ru\/share.php?url=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":32},"2048":{"name":"nk","shareurl":"http:\/\/nk.pl\/sledzik?shout={pageTitle}%20-%20{pageUrl}","iconprefix":"nk","link":"http:\/\/nk.pl\/sledzik?shout=Accueil%20-%20http%3A%2F%2Flitle.jimdo.com%2F","serviceId":2048},"8192":{"name":"Yoolink","shareurl":"http:\/\/www.yoolink.fr\/post\/tag?url_value={pageUrl}&title={pageTitle}","iconprefix":"yoolink","link":"http:\/\/www.yoolink.fr\/post\/tag?url_value=http%3A%2F%2Flitle.jimdo.com%2F&title=Accueil","serviceId":8192},"4096":{"name":"Tuenti","shareurl":"http:\/\/www.tuenti.com\/share?url={pageUrl}","iconprefix":"tuenti","link":"http:\/\/www.tuenti.com\/share?url=http%3A%2F%2Flitle.jimdo.com%2F","serviceId":4096},"131072":{"name":"Wykop","shareurl":"http:\/\/www.wykop.pl\/dodaj\/link\/?url={pageUrl}&title={pageTitle}","iconprefix":"wykop","link":"http:\/\/www.wykop.pl\/dodaj\/link\/?url=http%3A%2F%2Flitle.jimdo.com%2F&title=Accueil","serviceId":131072}}}});
+/* ]]> */
+</script></div></div></div>
+12:25:41.484921 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 21601, win 45, options [nop,nop,TS val 2317612 ecr 1818998006], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#],lk..
+12:25:41.487137 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 21601:23041, ack 533, win 122, options [nop,nop,TS val 1818998006 ecr 2317598], length 1440
+E...'.@./.\v.(DB.....P.........A...zk......
+lk...#].
+<div class="cc-m-hgrid-overlay"></div>
+
+<br class="cc-clear"/>
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_hgrid", {"columnsCount":2,"minColumns":1,"maxColumns":6});
+/* ]]> */
+</script></div><div id="cc-m-3175731951" class="n j-hr">    <div class="hr"></div>
+</div><div id="cc-m-2990072251" class="n j-header"><h1 id="cc-m-header-2990072251">Actualit..s :</h1></div><div id="cc-m-5774014951" class="n j-textWithImage"><div class="clearover">
+    <div id="cc-m-textwithimage-5774014951" class="cc-imagewrapper cc-m-image-align-1" style="width:240px;">
+        <div class="cc-m-image-resizewrapper">
+<a href="http://litle.jimdo.com/applications/pc/litle-wifi-toolkit-v2-0/">
+    <img src="http://u.jimdo.com/www20/o/sa131795384c1a365/img/if26523b74de045c8/1394021224/std/litle-wifi-toolkit-v2-0.jpg" class="" id="cc-m-textwithimage-image-5774014951" alt="LITLE Wifi ToolKit v2.0" title="LITLE Wifi ToolKit v2.0" width="240" height="89"/>
+</a>
+        </div>
+
+        <span class="caption">LITLE Wifi ToolKit v2.0</span>
+    </div>
+<p style="line-height: 16.799999237060547px;">
+    <strong><a href="http://litle.jimdo.com/applications/pc/litle-wifi-toolkit-v2-0/" target="">LITLE Wifi ToolKit v2.0: Craqueur de mot de passe Wifi..WEP &amp; WPA</a></strong>
+</p>
+
+<p style="line-height: 16.799999237060547px;">
+    LITLE Wifi ToolKit est un script qui vous permet de craquer le mot de passe d'un point d'acc..s wifi poss..dant u
+12:25:41.487150 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 23041, win 45, options [nop,nop,TS val 2317613 ecr 1818998006], length 0
+E..4F.@.@.1......(DB...P...A.......-.L.....
+.#]-lk..
+12:25:41.491754 IP 151.249.88.80.http > KaliLinux.home.60734: Flags [S.], seq 1986759886, ack 3687756408, win 65535, options [mss 1452,sackOK,TS val 1730699872 ecr 2317605,nop,wscale 7], length 0
+E..<..@.5.....XP.....P.>vk.....x...............
+g(b`.#]%....
+12:25:41.491780 IP KaliLinux.home.60734 > 151.249.88.80.http: Flags [.], ack 1, win 29, options [nop,nop,TS val 2317614 ecr 1730699872], length 0
+E..4.S@.@..k......XP.>.P...xvk.......+.....
+.#].g(b`
+12:25:41.491871 IP KaliLinux.home.60734 > 151.249.88.80.http: Flags [P.], seq 1:474, ack 1, win 29, options [nop,nop,TS val 2317614 ecr 1730699872], length 473
+E..
+.T@.@.........XP.>.P...xvk.............
+.#].g(b`GET /www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/main.css?t=1394028140 HTTP/1.1
+Host: u.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/
+Cookie: __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+12:25:41.491987 IP 151.249.88.80.http > KaliLinux.home.60735: Flags [S.], seq 816572310, ack 3273452979, win 65535, options [mss 1452,sackOK,TS val 1730699873 ecr 2317605,nop,wscale 7], length 0
+E..<..@.5.....XP.....P.?0............~.........
+g(ba.#]%....
+12:25:45.326206 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [P.], seq 533:1032, ack 33868, win 45, options [nop,nop,TS val 2318573 ecr 1818998019], length 499
+E..'F.@.@./......(DB...P...A.......-.?.....
+.#`.lk..GET /stats/ HTTP/1.1
+Host: litle.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/
+Cookie: PHPSESSID=f09f0b0e2a14f37339c9fb57dfdbe2fe; __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g; servicewb[91914]=1395919544
+Connection: keep-alive
+
+
+12:25:45.375556 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], ack 1032, win 130, options [nop,nop,TS val 1818998981 ecr 2318573], length 0
+E..4'.@./.b
+.(DB.....P.........4....3......
+lk...#`.
+12:25:45.394390 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [P.], seq 33868:34228, ack 1032, win 130, options [nop,nop,TS val 1818998985 ecr 2318573], length 360
+E...'.@./.`..(DB.....P.........4....C......
+lk...#`.HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://litle.jimdo.com/protected/?comeFrom=http%3A%2F%2Flitle.jimdo.com%2Fstats%2F&
+Content-type: text/html
+Content-Length: 0
+Date: Thu, 27 Mar 2014 11:25:04 GMT
+Server: lighttpd/1.4.28
+
+
+12:25:49.254545 IP KaliLinux.home.34667 > par10s10-in-f17.1e100.net.http: Flags [F.], seq 1628118217, ack 2344544921, win 29, options [nop,nop,TS val 2319555 ecr 3879130602], length 0
+E..4C.@.@._)......(..k.Pa............5.....
+.#d..6..
+12:25:49.254866 IP KaliLinux.home.34665 > par10s10-in-f17.1e100.net.http: Flags [F.], seq 95883802, ack 1098077905, win 29, options [nop,nop,TS val 2319555 ecr 3879135823], length 0
+E..4M(@.@.U.......(..i.P....AsV......5.....
+.#d..6.O
+12:25:49.254877 IP KaliLinux.home.38737 > 90.84.59.147.http: Flags [F.], seq 3773624608, ack 3598902828, win 29, options [nop,nop,TS val 2319555 ecr 3531473040], length 0
+E..4..@.@.5.....ZT;..Q.P... ...,....W......
+.#d..~..
+12:25:49.254884 IP KaliLinux.home.53909 > 151.249.88.210.http: Flags [F.], seq 169467255, ack 1876922833, win 29, options [nop,nop,TS val 2319555 ecr 2044950527], length 0
+E..4.f@.@.........X....P
+..wo..............
+.#d.y.w.
+12:25:49.254891 IP KaliLinux.home.34668 > par10s10-in-f17.1e100.net.http: Flags [F.], seq 2422386066, ack 123469593, win 29, options [nop,nop,TS val 2319555 ecr 3879131367], length 0
+E..4..@.@.........(..l.P.b...[.......5.....
+.#d..6..
+12:25:49.301992 IP par10s10-in-f17.1e100.net.http > KaliLinux.home.34667: Flags [F.], seq 1, ack 1, win 665, options [nop,nop,TS val 3879136226 ecr 2319555], length 0
+E..4N?..7..v..(......P.k....a.......(+.....
+.6...#d.
+12:25:49.302003 IP KaliLinux.home.34667 > par10s10-in-f17.1e100.net.http: Flags [.], ack 2, win 29, options [nop,nop,TS val 2319567 ecr 3879136226], length 0
+E..4C.@.@._(......(..k.Pa............5.....
+.#d..6..
+12:25:49.302830 IP 90.84.59.147.http > KaliLinux.home.38737: Flags [F.], seq 1, ack 1, win 7240, options [nop,nop,TS val 3531478828 ecr 2319555], length 0
+E..4..@.9...ZT;......P.Q...,...!...H.......
+.~.,.#d.
+12:25:49.302836 IP KaliLinux.home.38737 > 90.84.59.147.http: Flags [.], ack 2, win 29, options [nop,nop,TS val 2319567 ecr 3531478828], length 0
+E..4..@.@.5.....ZT;..Q.P...!...-....W......
+.#d..~.,
+12:25:49.303088 IP 151.249.88.210.http > KaliLinux.home.53909: Flags [.], ack 1, win 1019, options [nop,nop,TS val 2044956358 ecr 2319555], length 0
+E..4..@.5..v..X......P..o...
+..x...........
+y....#d.
+12:25:49.303651 IP 151.249.88.210.http > KaliLinux.home.53909: Flags [F.], seq 1, ack 1, win 1019, options [nop,nop,TS val 2044956358 ecr 2319555], length 0
+E..4..@.5..u..X......P..o...
+..x...........
+y....#d.
+12:25:49.303660 IP KaliLinux.home.53909 > 151.249.88.210.http: Flags [.], ack 2, win 29, options [nop,nop,TS val 2319567 ecr 2044956358], length 0
+E..4h.@.@..K......X....P
+..xo........S.....
+.#d.y...
+12:25:49.303912 IP par10s10-in-f17.1e100.net.http > KaliLinux.home.34665: Flags [F.], seq 1, ack 1, win 665, options [nop,nop,TS val 3879141460 ecr 2319555], length 0
+E..4.@..7._u..(......P.iAsV.........W......
+.7.T.#d.
+12:25:49.303918 IP KaliLinux.home.34665 > par10s10-in-f17.1e100.net.http: Flags [.], ack 2, win 29, options [nop,nop,TS val 2319567 ecr 3879141460], length 0
+E..4M)@.@.U.......(..i.P....AsV......5.....
+.#d..7.T
+12:25:49.304545 IP par10s10-in-f17.1e100.net.http > KaliLinux.home.34668: Flags [F.], seq 1, ack 1, win 665, options [nop,nop,TS val 3879136876 ecr 2319555], length 0
+E..4\)..7.....(......P.l.[...b.......b.....
+.6.l.#d.
+12:25:49.304550 IP KaliLinux.home.34668 > par10s10-in-f17.1e100.net.http: Flags [.], ack 2, win 29, options [nop,nop,TS val 2319567 ecr 3879136876], length 0
+E..4..@.@.........(..l.P.b...[.......5.....
+.#d..6.l
+12:25:49.346273 IP 151.249.88.80.http > KaliLinux.home.60735: Flags [F.], seq 3092, ack 2662, win 1013, options [nop,nop,TS val 1730707739 ecr 2318085], length 0
+E..4..@.5.....XP.....P.?0............:.....
+g(...#_.
+12:25:49.346331 IP KaliLinux.home.60735 > 151.249.88.80.http: Flags [F.], seq 2662, ack 3093, win 44, options [nop,nop,TS val 2319578 ecr 1730707739], length 0
+E..4..@.@.........XP.?.P....0......,.+.....
+.#d.g(..
+
+12:25:49.370308 IP 151.249.88.80.http > KaliLinux.home.60735: Flags [.], ack 2663, win 1013, options [nop,nop,TS val 1730707763 ecr 2319578], length 0
+E..4..@.5.....XP.....P.?0............L.....
+g(.3.#d.
+12:25:49.589243 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [P.], seq 1585:2272, ack 49037, win 45, options [nop,nop,TS val 2319638 ecr 1818999025], length 687
+E...F.@.@........(DB...P.. ]..S/...-.......
+.#e.lk..POST /stats/ HTTP/1.1
+Host: litle.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/protected/?comeFrom=http%3A%2F%2Flitle.jimdo.com%2Fstats%2F&
+Cookie: PHPSESSID=f09f0b0e2a14f37339c9fb57dfdbe2fe; __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g; servicewb[91914]=1395919546
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 58
+P@ssWord=PasdemeufaMaubeuge&do_L0gin=yes&Submit=Connexion+
+12:25:49.659913 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [P.], seq 49037:49413, ack 2272, win 150, options [nop,nop,TS val 1819000052 ecr 2319638], length 376
+E...'.@./.`..(DB.....P....S/..#..... ......
+lk...#e.HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://litle.jimdo.com/protected/?loginfailed=yes&comeFrom=http%3A%2F%2Flitle.jimdo.com%2Fstats%2F&
+Content-type: text/html
+Content-Length: 0
+Date: Thu, 27 Mar 2014 11:25:08 GMT
+Server: lighttpd/1.4.28
+
+
+12:25:49.659935 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 49413, win 45, options [nop,nop,TS val 2319656 ecr 1819000052], length 0
+E..4F.@.@.1......(DB...P..#...T....-.L.....
+.#e(lk..
+12:25:49.785764 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [P.], seq 2272:2901, ack 49413, win 45, options [nop,nop,TS val 2319688 ecr 1819000052], length 629
+E...F.@.@./3.....(DB...P..#...T....-.......
+.#eHlk..GET /protected/?loginfailed=yes&comeFrom=http%3A%2F%2Flitle.jimdo.com%2Fstats%2F& HTTP/1.1
+Host: litle.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/protected/?comeFrom=http%3A%2F%2Flitle.jimdo.com%2Fstats%2F&
+Cookie: PHPSESSID=f09f0b0e2a14f37339c9fb57dfdbe2fe; __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g; servicewb[91914]=1395919546
+Connection: keep-alive
+
+
+12:25:49.875224 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], ack 2901, win 160, options [nop,nop,TS val 1819000106 ecr 2319688], length 0
+E..4'.@./.a..(DB.....P....T...%............
+lk.*.#eH
+12:25:49.876340 IP 151.249.88.97.http > KaliLinux.home.46093: Flags [F.], seq 1098003622, ack 1827498358, win 1013, options [nop,nop,TS val 349057343 ecr 2318101], length 0
+E..4=m@.5.VA..Xa.....P.
+Ar4.l.iv...........
+..1?.#_.
+12:25:49.876395 IP KaliLinux.home.46093 > 151.249.88.97.http: Flags [F.], seq 1, ack 1, win 33, options [nop,nop,TS val 2319710 ecr 349057343], length 0
+E..4=>@.@.Kp......Xa.
+.Pl.ivAr4....!.<.....
+.#e^..1?
+12:25:49.877290 IP 151.249.88.97.http > KaliLinux.home.46095: Flags [F.], seq 2276458422, ack 2350873334, win 1013, options [nop,nop,TS val 349057344 ecr 2318077], length 0
+E..4.4@.5..y..Xa.....P........z............
+..1@.#^.
+12:25:49.877345 IP KaliLinux.home.46095 > 151.249.88.97.http: Flags [F.], seq 1, ack 1, win 31, options [nop,nop,TS val 2319710 ecr 349057344], length 0
+E..4+h@.@.]F......Xa...P..z..........<.....
+.#e^..1@
+12:25:49.877587 IP 151.249.88.97.http > KaliLinux.home.46092: Flags [F.], seq 1157011763, ack 636718378, win 1013, options [nop,nop,TS val 349057345 ecr 2318106], length 0
+E..4..@.5.....Xa.....P..D..3%..*...........
+..1A.#_.
+12:25:49.877637 IP KaliLinux.home.46092 > 151.249.88.97.http: Flags [F.], seq 1, ack 1, win 32, options [nop,nop,TS val 2319711 ecr 349057345], length 0
+E..4..@.@.........Xa...P%..*D..4... .<.....
+.#e_..1A
+12:25:49.880219 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 49413:50853, ack 2901, win 160, options [nop,nop,TS val 1819000106 ecr 2319688], length 1440
+E...'.@./.\^.(DB.....P....T...%............
+lk.*.#eHHTTP/1.1 200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Transfer-Encoding: chunked
+Date: Thu, 27 Mar 2014 11:25:08 GMT
+Server: lighttpd/1.4.28
+
+1f37
+<!DOCTYPE html>
+<html lang="fr-FR"><head>
+        <meta charset="utf-8"/>
+            <meta name="robots" content="index, follow, archive"/>
+    <meta name="twitter:card" content="app"/><meta name="twitter:app:id:iphone" content="588950703"/><meta name="twitter:app:id:ipad" content="588950703"/>    <title>Zone prot..g..e par mot de passe - Connexion - LITLE: Jeux et Applications diverses</title>
+        <link rel="shortcut icon" href="http://u.jimdo.com/www20/o/sa131795384c1a365/img/favicon.png?t=1341778473"/>
+    
+    <link rel="canonical" href="http://litle.jimdo.com/"/>
+
+    <!-- BEGIN STYLES PARTIAL -->    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/main.css?t=1394028140" rel="stylesheet" type="text/css"/>
+    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/layout.css?t=1391689863" rel="stylesheet" type="text/css"/>
+    <link href="http://u.jimdo.com/www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/font.css?t=1394028140" rel="stylesheet" type="text/css"/>
+<!-- END STYLES PARTIAL -->    <link href="//jimdo.sslc
+12:25:49.880226 IP KaliLinux.home.60098 > web20.jimdo-server.com.http: Flags [.], ack 50853, win 45, options [nop,nop,TS val 2319711 ecr 1819000106], length 0
+E..4F.@.@.1......(DB...P..%...ZG...-.L.....
+.#e_lk.*
+12:25:49.882494 IP web20.jimdo-server.com.http > KaliLinux.home.60098: Flags [.], seq 50853:52293, ack 2901, win 160, options [nop,nop,TS val 1819000106 ecr 2319688], length 1440
+E...'.@./.\].(DB.....P....ZG..%.....<x.....
+lk.*.#eHs.cdngc.net/app/cdn/min/group/web.css?1395913323" rel="stylesheet" type="text/css" media="all"/>
+    <link href="//jimdo.sslcs.cdngc.net/app/cdn/min/group/webonly.css?1395913323" rel="stylesheet" type="text/css" media="all"/>
+    <link href="//jimdo.sslcs.cdngc.net/app/cdn/min/file/css/print/print.css?1395913323" rel="stylesheet" type="text/css" media="print"/>
+        <script>
+            /* <![CDATA[ */
+            // Framebuster
+            if (top != self) {
+                location.href = 'http://fr.jimdo.com/info/framebuster/';
+            }
+            /* ]]> */
+        </script>
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var jimdoData = {"isTestserver":false,"isLcJimdoCom":false,"isJimdoHelpCenter":false,"responseCode":200,"cstok":"e7bef40c2e678203745dac943bbc587199d5afad","cacheJsKey":"1395913323","cacheCssKey":"1395913323","cdnUrl":"\/\/jimdo.sslcs.cdngc.net\/","minUrl":"\/\/jimdo.sslcs.cdngc.net\/app\/cdn\/min\/file\/","authUrl":"https:\/\/a.jimdo.com\/","webPath":"http:\/\/litle.jimdo.com\/","appUrl":"http:\/\/a.jimdo.com\/","webserver":"http:\/\/web20.jimdo.com\/","cmsLanguage":"fr_FR","isFreePackage":true,"mobile":false,"maintenance":false,"newModuleSystem":false,"websiteId":"sa131795384c1a365","pageId":4,"packageId":1,"exfont":{"host":"jimdodev01.cpi.ad.jp"},"shop":{"deliveryTimeTexts":{"1":"1 \u00e0 3 jours de d\u00e9lai de livraison","2":"3 \u00e0 5 jours de d\u00e9lai de li
+12:25:54.451504 IP web20.jimdo-server.com.http > KaliLinux.home.60105: Flags [F.], seq 2807461730, ack 108263606, win 139, options [nop,nop,TS val 1819001249 ecr 2319743], length 0
+E..4..@./....(DB.....P...Vwb.s......._.....
+lk...#e.
+12:25:56.145366 IP 151.249.88.78.http > KaliLinux.home.42463: Flags [F.], seq 1379614047, ack 2843393689, win 1013, options [nop,nop,TS val 1720074614 ecr 2319746], length 0
+E..41.@.5.b)..XN.....P..R;=_.z.......D.....
+f.Av.#e.
+
+LITLE Wifi ToolKit est un script qui vous permet de craquer le mot de passe d'un point d'acc..s wifi poss..dant une s..curit.. WEP et WPA
+</p>
+
+<p>
+    ..
+</p>
+
+<p>
+    LITLE Wifi ToolKit is a script that permit you cracking WEP and WPA security password of an access point.
+</p></div>
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_textWithImage", {"data":{"imageExists":true,"hyperlink":"","hyperlink_target":"","pinterest":"0","id":5774007651}});
+/* ]]> */
+</script></div><div id="cc-m-5774008051" class="n j-imageSubtitle"><div class="clearover">
+    <div id="cc-m-imagesubtitle-5774008051" class="cc-m-image-resizewrapper cc-imagewrapper cc-m-image-align-3" style="width: 196px;">
+<a href="http://adf.ly/ePqfL" target="_blank"><img id="cc-m-imagesubtitle-image-5774008051" src="http://u.jimdo.com/www20/o/sa131795384c1a365/img/ia80047f24a7b7010/1394043863/std/t%C3%A9l%C3%A9chargement-download.png" alt="T..l..chargement / Download" title="T..l..chargement / Download" class="" style="width: 196px; height: 196px;"/></a>    </div>
+</div>
+
+<div class="
+12:32:22.992216 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 14401, win 45, options [nop,nop,TS val 2417989 ecr 1819098382], length 0
+E..4..@.@........(DB...P..K.Z.M....-.L.....
+.$.Elm=.
+12:32:22.994458 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [.], seq 14401:15841, ack 573, win 123, options [nop,nop,TS val 1819098382 ecr 2417976], length 1440
+E...(>@./.[..(DB.....P..Z.M...K....{&......
+lm=..$.8clearover">
+        <div class="caption cc-m-image-align-3" style="width: 196px;">T..l..chargement / Download</div>
+    </div>
+
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_imageSubtitle", {"data":{"imageExists":true,"hyperlink":"http:\/\/adf.ly\/ePqfL","hyperlink_target":"_blank","pinterest":"0","id":5774008051}});
+/* ]]> */
+</script></div><div id="cc-m-5774008251" class="n j-hgrid"><div class="cc-m-hgrid-column" style="width: 19.92%;">
+    <div id="cc-matrix-1284449951"><div id="cc-m-5774008351" class="n j-text"><p>
+    <strong><a href="#French">Fran..ais</a></strong>
+</p></div><div id="cc-m-5774008451" class="n j-hr">    <div class="hr"></div>
+</div></div></div>
+<div class="cc-m-hgrid-separator"><div></div></div>
+<div class="cc-m-hgrid-column" style="width: 19.72%;">
+    <div id="cc-matrix-1284450051"><div id="cc-m-5774008551" class="n j-text"><p>
+    <strong><a href="#English">English</a></strong>
+</p></div><div id="cc-m-5774008651" class="n j-hr">    <div class="hr"></div>
+</div></div></div>
+<div class="cc-m-hgrid-separator"><div></div></div>
+<div class="cc-m-hgrid-column" style="width: 23.41%;">
+    <div id="cc-matrix-1284450151"><div id="cc-m-5774008751" class="n j-text"><p>
+    <strong><a href="#ScreenShot">ScreenShot</a></strong>
+</p></div><div id="cc-m-5774008851" class="n j-hr">    <div class="hr"></div>
+</div></div></div>
+<div class="cc-m-hgrid-separator"><div></div></div>
+<div class="cc-m-hg
+12:32:22.994467 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 15841, win 45, options [nop,nop,TS val 2417990 ecr 1819098382], length 0
+E..4..@.@........(DB...P..K.Z.R....-.L.....
+.$.Flm=.
+12:32:22.996684 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [P.], seq 15841:17281, ack 573, win 123, options [nop,nop,TS val 1819098382 ecr 2417976], length 1440
+E...(?@./.[..(DB.....P..Z.R...K....{w......
+lm=..$.8rid-column last" style="width: 30.94%;">
+    <div id="cc-matrix-1284450251"><div id="cc-m-5774008951" class="n j-text"><p>
+    Partagez avec:
+</p></div><div id="cc-m-5774009051" class="n j-sharebuttons"><div class="cc-sharebuttons-element cc-sharebuttons-size-32">
+    <div class="cc-sharebuttons-element-inner cc-sharebuttons-style-1">
+        <a class="cc-sharebuttons-facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&amp;t=LITLE+Wifi+ToolKit+v2.0" title="Facebook" target="_blank"></a>
+            <a class="cc-sharebuttons-twitter" href="http://twitter.com/share?text=LITLE+Wifi+ToolKit+v2.0&amp;url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F" title="Twitter" target="_blank"></a>
+            <a class="cc-sharebuttons-googleplus" href="https://plus.google.com/share?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F" title="Google+" target="_blank"></a>
+        </div>
+</div>
+
+<div style="clear:both;"></div><script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_sharebuttons", {"initializationData":{"model":{"services":{"1":true,"2":true,"16384":true,"16":false,"65536":false,"32768":false,"262144":false,"256":false,"128":false,"512":false,"8":false,"64":false,"32":false,"2048":false,"8192":false,"4096":false,"131072":false},"buttonSize":2,"buttonStyle":1},"definedServices":{"1
+12:32:22.996697 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 17281, win 45, options [nop,nop,TS val 2417990 ecr 1819098382], length 0
+E..4..@.@........(DB...P..K.Z.XF...-.L.....
+.$.Flm=.
+12:32:22.999102 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [P.], seq 17281:18721, ack 573, win 123, options [nop,nop,TS val 1819098383 ecr 2417977], length 1440
+E...(@@./.[..(DB.....P..Z.XF..K....{.......
+lm=..$.9":{"name":"Facebook","shareurl":"http:\/\/www.facebook.com\/sharer.php?u={pageUrl}&t={pageTitle}","iconprefix":"facebook","link":"http:\/\/www.facebook.com\/sharer.php?u=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&t=LITLE+Wifi+ToolKit+v2.0","serviceId":1},"2":{"name":"Twitter","shareurl":"http:\/\/twitter.com\/share?text={pageTitle}&url={pageUrl}","iconprefix":"twitter","needsurlencode":1,"link":"http:\/\/twitter.com\/share?text=LITLE+Wifi+ToolKit+v2.0&url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":2},"16384":{"name":"Google+","shareurl":"https:\/\/plus.google.com\/share?url={pageUrl}","iconprefix":"googleplus","needsurlencode":1,"link":"https:\/\/plus.google.com\/share?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":16384},"16":{"name":"e-mail","shareurl":"mailto:?subject={pageTitle}&body={pageUrl}","iconprefix":"mail","link":"mailto:?subject=LITLE+Wifi+ToolKit+v2.0&body=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":16},"65536":{"name":"Evernote","shareurl":"http:\/\/www.evernote.com\/clip.action?url={pageUrl}&title={pageTitle}","iconprefix":"evernote","link":"http:\/\/www.evernote.com\/clip.action?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":65536},"32768":{"name":"
+12:32:22.999109 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 18721, win 45, options [nop,nop,TS val 2417991 ecr 1819098383], length 0
+E..4..@.@........(DB...P..K.Z.]....-.L.....
+.$.Glm=.
+12:32:23.001347 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [.], seq 18721:20161, ack 573, win 123, options [nop,nop,TS val 1819098385 ecr 2417979], length 1440
+.....A@./.[..(DB.....P..Z.]...K....{.
+lm=..$.;LinkedIn","shareurl":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url={pageUrl}&title={pageTitle}","iconprefix":"linkedin","link":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":32768},"262144":{"name":"Xing","shareurl":"https:\/\/www.xing.com\/social_plugins\/share\/new?url={pageUrl}","iconprefix":"xing","link":"https:\/\/www.xing.com\/social_plugins\/share\/new?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":262144},"256":{"name":"StumbleUpon","shareurl":"http:\/\/www.stumbleupon.com\/submit?url={pageUrl}&title={pageTitle}","iconprefix":"stumbleupon","link":"http:\/\/www.stumbleupon.com\/submit?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":256},"128":{"name":"Tumblr","shareurl":"http:\/\/www.tumblr.com\/share?v=3&u={pageUrl}&t={pageTitle}","iconprefix":"tumblr","link":"http:\/\/www.tumblr.com\/share?v=3&u=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&t=LITLE+Wifi+ToolKit+v2.0","serviceId":128},"512":{"name":"Reddit","shareurl":"http:\/\/reddit.com\/submit?url={pageUrl}&title={pageTitle}","iconprefix":"reddit","link":"http:\/\/reddit.com\/submit?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&tit
+12:32:23.001360 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 20161, win 45, options [nop,nop,TS val 2417991 ecr 1819098385], length 0
+E..4..@.@........(DB...P..K.Z.c....-.L.....
+.$.Glm=.
+12:32:23.003588 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [.], seq 20161:21601, ack 573, win 123, options [nop,nop,TS val 1819098385 ecr 2417979], length 1440
+E...(B@./.[..(DB.....P..Z.c...K....{r?.....
+lm=..$.;le=LITLE+Wifi+ToolKit+v2.0","serviceId":512},"8":{"name":"Digg","shareurl":"http:\/\/digg.com\/submit?partner=addthis&url={pageUrl}&title={pageTitle}","iconprefix":"digg","link":"http:\/\/digg.com\/submit?partner=addthis&url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":8},"64":{"name":"Orkut","shareurl":"http:\/\/promote.orkut.com\/preview?nt=orkut.com&tt={pageTitle}&du={pageUrl}","iconprefix":"orkut","link":"http:\/\/promote.orkut.com\/preview?nt=orkut.com&tt=LITLE+Wifi+ToolKit+v2.0&du=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":64},"32":{"name":"VKontakte","shareurl":"http:\/\/vkontakte.ru\/share.php?url={pageUrl}","iconprefix":"vkontakte","link":"http:\/\/vkontakte.ru\/share.php?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":32},"2048":{"name":"nk","shareurl":"http:\/\/nk.pl\/sledzik?shout={pageTitle}%20-%20{pageUrl}","iconprefix":"nk","link":"http:\/\/nk.pl\/sledzik?shout=LITLE+Wifi+ToolKit+v2.0%20-%20http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":2048},"8192":{"name":"Yoolink","shareurl":"http:\/\/www.yoolink.fr\/post\/tag?url_value={pageUrl}&title={pageTitle}","iconprefix":"yoolink","link":"http:\/\/www.yoolink.fr\/post\/tag?url_value=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-tool
+12:32:23.003601 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 21601, win 45, options [nop,nop,TS val 2417992 ecr 1819098385], length 0
+E..4..@.@........(DB...P..K.Z.i&...-.L.....
+.$.Hlm=.
+12:32:23.005783 IP web20.jimdo-server.com.http > KaliLinux.home.60292: Flags [.], seq 21601:23041, ack 573, win 123, options [nop,nop,TS val 1819098385 ecr 2417979], length 1440
+E...(C@./.[..(DB.....P..Z.i&..K....{.Y.....
+lm=..$.;kit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":8192},"4096":{"name":"Tuenti","shareurl":"http:\/\/www.tuenti.com\/share?url={pageUrl}","iconprefix":"tuenti","link":"http:\/\/www.tuenti.com\/share?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F","serviceId":4096},"131072":{"name":"Wykop","shareurl":"http:\/\/www.wykop.pl\/dodaj\/link\/?url={pageUrl}&title={pageTitle}","iconprefix":"wykop","link":"http:\/\/www.wykop.pl\/dodaj\/link\/?url=http%3A%2F%2Flitle.jimdo.com%2Fapplications%2Fpc%2Flitle-wifi-toolkit-v2-0%2F&title=LITLE+Wifi+ToolKit+v2.0","serviceId":131072}}}});
+/* ]]> */
+</script></div><div id="cc-m-5774009151" class="n j-text"><p>
+    Share with:
+</p></div></div></div>
+<div class="cc-m-hgrid-overlay"></div>
+
+<br class="cc-clear"/>
+<script>/* <![CDATA[ */
+    jimdoGen002.regModule("module_hgrid", {"columnsCount":4,"minColumns":1,"maxColumns":6});
+/* ]]> */
+</script></div><div id="cc-m-5774009351" class="n j-hr">    <div class="hr"></div>
+</div><div id="cc-m-5774009451" class="n j-htmlCode"><div id="French">
+    <b>Fran..ais</b>
+</div></div><div id="cc-m-5774009551" class="n j-textWithImage"><div class="clearover">
+    <div id="cc-m-textwithimage-5774009551" class="cc-imagewrapper cc-m-image-align-1" style="width:270px;">
+        <div class="cc-m-image-resizewrapper">
+
+    <img src="http://u.jimdo.com/www20/o/sa131795384c1a365/img/i44528ce8ad6ecd31/1394019573/std/litle-w
+12:32:23.005796 IP KaliLinux.home.60292 > web20.jimdo-server.com.http: Flags [.], ack 23041, win 45, options [nop,nop,TS val 2417993 ecr 1819098385], length 0
+E..4..@.@........(DB...P..K.Z.n....-.L.....
+.$.Ilm=.
+12:32:23.018572 IP 151.249.88.97.http > KaliLinux.home.46274: Flags [S.], seq 1435855265, ack 2457813958, win 65535, options [mss 1452,sackOK,TS val 349450257 ecr 2417984,nop,wscale 7], length 0
+E..<..@.5.....Xa.....P..U.i...C.....!	.........
+..0..$.@....
+12:32:23.018597 IP KaliLinux.home.46274 > 151.249.88.97.http: Flags [.], ack 1, win 29, options [nop,nop,TS val 2417996 ecr 349450257], length 0
+E..4..@.@..'......Xa...P..C.U.i......<.....
+.$.L..0.
+12:32:23.018676 IP KaliLinux.home.46274 > 151.249.88.97.http: Flags [P.], seq 1:514, ack 1, win 29, options [nop,nop,TS val 2417996 ecr 349450257], length 513
+E..5..@.@..%......Xa...P..C.U.i......=.....
+.$.L..0.GET /www20/o/sa131795384c1a365/layout/l799386e02c9fc6cd/css/main.css?t=1394028140 HTTP/1.1
+Host: u.jimdo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://litle.jimdo.com/applications/pc/litle-wifi-toolkit-v2-0/
+Cookie: __gads=ID=e733be4c78b5bec0:T=1395916271:S=ALNI_MbeNOeJztRkL-WRywwcG97J4blB8g
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+12:32:23.018848 IP 151.249.88.97.http > KaliLinux.home.46275: Flags [S.], seq 745384511, ack 1497918863, win 65535, options [mss 1452,sackOK,TS val 349450258 ecr 2417984,nop,wscale 7], length 0
+E..<..@.5.....Xa.....P..,m.?YHm................
+..0..$.@....
+12:32:29.399471 IP web20.jimdo-server.com.http > KaliLinux.home.60299: Flags [F.], seq 2092312004, ack 969101372, win 131, options [nop,nop,TS val 1819099970 ecr 2418402], length 0
+E..4$*@./.et.(DB.....P..|.%.9.P<...........
+lmCB.$..
+12:32:29.399554 IP KaliLinux.home.60299 > web20.jimdo-server.com.http: Flags [F.], seq 1, ack 1, win 36, options [nop,nop,TS val 2419591 ecr 1819099970], length 0
+E..4.r@.@..+.....(DB...P9.P<|.%....$.L.....
+.$..lmCB
+
