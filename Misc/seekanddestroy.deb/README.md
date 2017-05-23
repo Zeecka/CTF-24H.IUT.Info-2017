@@ -12,6 +12,8 @@ Ensuite il suffit de l'ouvrir et le flag apparait à la fin
 
 ![deb2.png](deb2.png)
 
+==> thx2RTFM
+
 ## Solution 2 
 
 Utiliser binwalk et lire le contenu des fichiers présents:
