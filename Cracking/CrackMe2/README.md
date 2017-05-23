@@ -2,20 +2,16 @@
 
 Pour ce challenge, nous n'avions qu'un fichier executable UNIX.
 
-Si l'on essaye de l'executer, le programme se ferme immédiatement.
-
-Allons donc :o
-
 Pour savoir ce que cache ce programme, desassemblons le avec mon outil favori, IDA Pro.
 On arrive sur le code assembleur de la fonction main, ce qui nous interesse le plus ici:
 
 ![MainDesassemble](crackme1.png)
 
-Première remarque, le main est très petit, en effet le programme n'est pas bien difficile.
+PremiÃ¨re remarque, le main est trÃ¨s petit, en effet le programme n'est pas bien difficile.
 
 Si on se penche un peu plus attentivement sur le code, on peut voir que le programme
-fais une comparaison de chaine de caractères entre un argument de lancement et une très
-très longue chaine :'(
+fais une comparaison de chaine de caractÃ¨res entre un argument de lancement et une trÃ¨s
+trÃ¨s longue chaine :'(
 
 ![ComparaisonArgv](crackme2.png)
 
@@ -24,14 +20,14 @@ Pourquoi ? Regardons simplement ce que fais le programme si l'argument est bien 
 
 ![AffichageFlag](crackme3.png)
 
-Oh bah ca alors, une chaine de caractères est affichée à l'écran !
-Et cette chaine est en réalité notre flag :)
+Oh bah ca alors, une chaine de caractÃ¨res est affichÃ©e Ã  l'Ã©cran !
+Et cette chaine est en rÃ©alitÃ© notre flag :)
 
 > Flag: sKTqUx0rfTsWk
 
 ## Bonus: Equivalent C
 
-Pour que vous puissiez comprendre, j'ai fais un code approximatif et simplifié du code originel (C) du crackme
+Pour que vous puissiez comprendre, j'ai fais un code approximatif et simplifiÃ© du code originel (C) du crackme
 
 [crackme2.c]("crackme2.c")
 
